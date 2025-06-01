@@ -28,7 +28,7 @@ I chose this model for its:
 ```bash
 docker build -t huggingface-api .
 
-## 💡 Scaling & Production Notes
+### 💡 Scaling & Production Notes
 
 This demo uses Uvicorn to serve the API within a single Docker container — enough to support concurrent requests for this task.  
 
